@@ -9,13 +9,13 @@ const TAB_DATA = [
         id: "skills",
         content: (
             <ul className='list-disc pl-2'> 
+                <li>AI & Machine Learning</li>
                 <li>React</li>
                 <li>Next.js</li>
                 <li>Node.js</li>
                 <li>MongoDB</li>
                 <li>Express.js</li>
-                <li>Python</li>
-                <li>AI & Machine Learning</li>
+                <li>Python</li>  
             </ul>
         )
     },
@@ -25,6 +25,7 @@ const TAB_DATA = [
         content: (
             <ul className='list-disc pl-2'>
                 <li>Bachelor of Technology in Artificial Intelligence & Machine Learning</li>
+                <li>Minors in Data Science</li>
                 <li>DJSCE (University of Mumbai)</li>
             </ul>
         )
@@ -60,7 +61,7 @@ const AboutSection = () => {
         
         <div className='mt-4 md:mt-0 text-left flex flex-col h-full'>
             <h2 className='text-white text-4xl  font-bold mb-4'>About Me</h2>
-            <p className='text-base lg:text-lg'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
+            <p className='text-base lg:text-lg'>Curiosity Drives Me</p>
             <div className='flex flex-row mt-8'>
             <TabButton
               selectTab={() => handleTabChange("skills")}
