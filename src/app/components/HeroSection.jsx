@@ -3,6 +3,9 @@ import React from "react";
 import Image from "next/image";
 import { TypeAnimation } from "react-type-animation";
 import Link from "next/link";
+import OpenEmailButton from "./OpenEmailButton";
+
+
 const HeroSection = () => {
   return (
     <section className="grid grid-cols-1 lg:grid-cols-12 my-4">
@@ -32,7 +35,7 @@ const HeroSection = () => {
         Passionate AI/ML developer and Data Scientist with a knack for turning complex challenges into innovative solutions, dedicated to pushing the boundaries of technology to create meaningful impact.
         </p>
         <div>
-          <button className="bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-200 text-white px-6 py-3 rounded-full mr-4">
+          <button className="bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-200 text-white px-6 py-3 rounded-full mr-4" onClick={OpenEmailButton}>
             Hire Me
           </button>
           <Link href="https://drive.google.com/file/d/1Bvuz3dVvJ6zqOfJ_bRfKH9C6VIC7habv/view?usp=sharing">
