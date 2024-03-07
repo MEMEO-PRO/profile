@@ -36,6 +36,8 @@ const TAB_DATA = [
         content: (
             <ul className='list-disc pl-2'>
                 <li>Microsoft Certified Azure Developer</li>
+                <li>IIT Guwahati - Artificial Intelligence with Python</li>
+                <li>VJTI Mumbai - Advanced Artificial Intelligence</li>
             </ul>
         )
     }
