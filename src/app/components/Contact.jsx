@@ -24,7 +24,7 @@ function Contact() {
     //   </div>
     // </section>
     <section className="grid grid-cols-1 lg:grid-cols-12 my-4">
-    <div className="col-span-7 place-self-center place-items-center grid lg:place-items-start">
+    <div className="col-span-7 place-self-center place-items-center grid lg:place-items-start" id='contact'>
       <h1 className="text-white max-w-2xl mb-4 lg:text-6xl text-4xl font-extrabold">
         Contact Me
       </h1>

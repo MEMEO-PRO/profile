@@ -38,10 +38,17 @@ const HeroSection = () => {
           <button className="bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-200 text-white px-6 py-3 rounded-full mr-4" onClick={OpenEmailButton}>
             Hire Me
           </button>
-          <Link href="https://drive.google.com/file/d/1Bvuz3dVvJ6zqOfJ_bRfKH9C6VIC7habv/view?usp=sharing">
+          <Link href="https://drive.google.com/file/d/15JKQ3ElgsnH7YdUt2gEuE5X-8Uru5Mdo/view?usp=sharing">
             <button className="m-4 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 px-1 py-1  text-white rounded-full">
               <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
                 Download CV
+              </span>
+            </button>
+          </Link>
+          <Link href="https://github.com/MEMEO-PRO">
+            <button className="m-4 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 px-1 py-1  text-white rounded-full">
+              <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
+                Github
               </span>
             </button>
           </Link>
