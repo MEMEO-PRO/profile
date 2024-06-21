@@ -4,6 +4,17 @@ import Image from 'next/image'
 import TabButton from './TabButton';
 
 const TAB_DATA = [
+  {
+    title: "Experience",
+    id: "experience",
+    content: (
+        <ul className='list-disc pl-2'>
+            <li>Quantitive Developer Intern @PhillipCapital - Present</li>
+            <li>AI Cyber Lab Researcher @DeepCytes - Present</li>
+            <li>AI Intern @Languify</li>
+        </ul>
+    )
+  },
     {
         title: "Skills",
         id: "skills",
