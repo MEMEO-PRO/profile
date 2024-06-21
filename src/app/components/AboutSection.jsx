@@ -77,6 +77,10 @@ const AboutSection = () => {
             <p className='text-base lg:text-lg'>Curiosity Drives Me</p>
             <div className='flex flex-row mt-8'>
             <TabButton
+              selectTab={() => handleTabChange("experience")}
+              active={tab === "experience"}
+            ></TabButton>
+            <TabButton
               selectTab={() => handleTabChange("skills")}
               active={tab === "skills"}
             >
