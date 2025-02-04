@@ -9,8 +9,8 @@ const TAB_DATA = [
       id: "experience",
       content: (
           <ul className='list-disc pl-2'>
-              <li>Quantitive Developer Intern (Fellowship) @PhillipCapital - Present</li>
-              <li>AI Cyber Lab Researcher @DeepCytes - Present</li>
+              <li>Quantitive Developer Intern (Fellowship) @PhillipCapital - 06/24 – 08/24</li>
+              <li>AI Cyber Lab Researcher @DeepCytes - 06/24 – 12/24</li>
               <li>AI Intern @Languify</li>
           </ul>
       )
