@@ -21,6 +21,8 @@ const HeroSection = () => {
               1000,
               "AI&ML Developer",
               1000,
+              "Quant Developer",
+              1000,
               "Software Developer",
               1000,
               "Web Developer",
@@ -32,7 +34,7 @@ const HeroSection = () => {
           />
         </h1>
         <p className="text-[#ADB7BE] mb-6 textl-lg lg:text-xl">
-        Passionate AI/ML developer and Web developer with a knack for turning complex challenges into innovative solutions, dedicated to pushing the boundaries of technology to create meaningful impact.
+        Passionate AI/ML developer with a knack for turning complex challenges into innovative solutions, dedicated to pushing the boundaries of technology to create meaningful impact.
         </p>
         <div>
           <button className="bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-200 text-white px-6 py-3 rounded-full mr-4" onClick={OpenEmailButton}>

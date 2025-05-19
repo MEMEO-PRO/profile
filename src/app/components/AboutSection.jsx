@@ -9,6 +9,7 @@ const TAB_DATA = [
       id: "experience",
       content: (
           <ul className='list-disc pl-2'>
+              <li>Python Developer Intern @MaxspikeCapital - 03/25 - Present</li>
               <li>Quantitive Developer Intern (Fellowship) @PhillipCapital - 06/24 – 08/24</li>
               <li>AI Cyber Lab Researcher @DeepCytes - 06/24 – 12/24</li>
               <li>AI Intern @Languify</li>
@@ -21,6 +22,7 @@ const TAB_DATA = [
         content: (
             <ul className='list-disc pl-2'> 
                 <li>AI & Machine Learning</li>
+                <li>Low Latency Systems</li>
                 <li>React</li>
                 <li>Next.js</li>
                 <li>Node.js</li>
@@ -46,6 +48,7 @@ const TAB_DATA = [
         id: "certifications",
         content: (
             <ul className='list-disc pl-2'>
+                <li>NISM-Series-VIII: Equity Derivatives Certification Examination</li>
                 <li>Microsoft Certified Azure Developer</li>
                 <li>IIT Guwahati - Artificial Intelligence with Python</li>
                 <li>VJTI Mumbai - Advanced Artificial Intelligence</li>
